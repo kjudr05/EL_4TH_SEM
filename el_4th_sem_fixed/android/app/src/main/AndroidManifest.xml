@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- android/app/src/main/AndroidManifest.xml -->
+<uses-permission android:name="android.permission.CALL_PHONE"/>
     <application
         android:label="el_4th_sem_fixed"
         android:name="${applicationName}"
