@@ -15,8 +15,8 @@ def transform_text(text):
 
 
 # --- Load models ---
-tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
-model = pickle.load(open('model.pkl', 'rb'))
+tfidf = pickle.load(open('Ml models/pkl format/vectorizer.pkl', 'rb'))
+model = pickle.load(open('Ml models/pkl format/model.pkl', 'rb'))
 
 # --- Page setup ---
 st.set_page_config(page_title="Spam Classifier", layout="wide", page_icon="📨")
